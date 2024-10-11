@@ -1,0 +1,19 @@
+{
+  "name": "RSDK-Scripts",
+  "displayName": "RSDK Scripts",
+  "description": "Adds a few things to help with RSDK modding",
+  "version": "0.1",
+  "author": { "name": "Hydropper" },
+  "categories": [ "Scripts" ],
+  "contributes": {
+    "scripts": [
+        { "path": "./rsdk-scripts.lua" }
+    ],
+    "keys": [
+      {
+        "id": "RSDK-Keys",
+        "path": "./RSDK.aseprite-keys"
+      }
+    ]
+  }
+}
