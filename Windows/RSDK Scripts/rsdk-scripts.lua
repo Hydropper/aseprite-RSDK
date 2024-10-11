@@ -1,4 +1,4 @@
-function copySpriteframe()
+function copySpriteFrame()
   local sprite = app.activeSprite
   
   if sprite == nil then
@@ -43,14 +43,14 @@ function copySpriteframe()
 end
 
 function init(plugin)
-    local parentGroup = "edit_transform"
+    local parentGroup = "edit_clipboard"
 
     if app.apiVersion >= 22 then
 
         plugin:newMenuGroup{
             id = parentGroup,
             title = "RSDK",
-            group = "edit_transform"
+            group = "edit_clipboard"
         }
     end
 
